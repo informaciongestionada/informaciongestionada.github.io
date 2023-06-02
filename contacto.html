@@ -44,11 +44,16 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6 col-xl-4">
                     <div>
-                        <form ACTION="mailto:informaciongestionada@gmail.com" METHOD="POST" ENCTYPE="TEXT/PLAIN">
-                            <div class="mb-3"><input class="form-control" type="text" data-bs-toggle="tooltip" data-bss-tooltip="" id="name-1" name="name" placeholder="Nombre" title="Digite su nombre"></div>
+                        <form action="https://formsubmit.co/informaciongestionada@gmail.com" METHOD="POST">
+                            <div class="mb-3"><input class="form-control" type="text" data-bs-toggle="tooltip" data-bss-tooltip=""  name="name" placeholder="Nombre" ></div>
                             <div class="mb-3"></div>
-                            <div class="mb-3"><textarea class="form-control" data-bs-toggle="tooltip" data-bss-tooltip="" id="message-1" name="message" rows="6" placeholder="Comentario" title="Escriba su comentario"></textarea></div>
+                            <div class="mb-3"><input class="form-control" type="email" data-bs-toggle="tooltip" data-bss-tooltip=""  name="email" placeholder="Email" ></div>
+                            <div class="mb-3"></div>
+                            <div class="mb-3"><textarea class="form-control" data-bs-toggle="tooltip" data-bss-tooltip="" name="message" rows="7" placeholder="Comentario" ></textarea></div>
                             <div><button class="btn btn-info shadow d-block w-100" type="submit">ENVIAR</button></div>
+
+                            <input type="hidden" name="_next" value="http://informaciongestionada.github.io/contacto.html" >
+                            <input type="hidden" name="_captcha" value="false" >
                         </form>
                     </div>
                 </div>
